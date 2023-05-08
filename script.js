@@ -18,7 +18,7 @@ function hitungSubnet() {
 
   // konversi network address dan broadcast ke bilagan desimal
   const networkAddress = convertToDecimal(networkAddressBiner);
-  const broadcastAddress = convertToDecimal(broadcastAddressBinary);
+  const broadcastAddress = convertToDecimal(broadcastAddressBiner);
 
   // menghitung angka host per subnet
   const subnetMaskBits = countSetBits(subnetMaskBinary);
