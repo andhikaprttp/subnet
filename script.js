@@ -9,7 +9,6 @@ let nilaiMax = Math.max(...data);
 
 // menghitung rentang data
 let rentang = nilaiMax - nilaiMin;
-
 console.log("Rentang data adalah " + rentang);
 
 function calculateSubnet() {
