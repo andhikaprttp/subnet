@@ -11,6 +11,21 @@ let nilaiMax = Math.max(...data);
 let rentang = nilaiMax - nilaiMin;
 console.log("Rentang data : " + rentang);
 
+const nilai = [40, 50, 60, 70, 80, 90, 100];
+const siswa = [3, 5, 11, 15, 3, 1, 2];
+
+let jumlahSiswa = 0;
+
+for (let i = 0; i < nilai.length; i++) {
+  if (nilai[i] > 60) {
+    jumlahSiswa += siswa[i];
+  }
+}
+
+console.log(`Jumlah siswa yang mendapatkan nilai lebih dari 60 adalah: ${jumlahSiswa}`);
+
+
+
 function calculateSubnet() {
   const ipAddress = document.getElementById("ip-address").value;
   const subnetMask = document.getElementById("subnet-mask").value;
