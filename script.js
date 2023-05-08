@@ -11,8 +11,8 @@ function hitungSubnet() {
     ipBiner,
     subnetMaskBiner
   );
-  const broadcastAddressBiner= calculateBroadcastAddress(
-    ipBinary,
+  const broadcastAddressBiner = calculateBroadcastAddress(
+    ipBiner,
     subnetMaskBinary
   );
 
