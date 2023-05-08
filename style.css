@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  margin: 1.5rem;
+}
+
+main {
+  background-color: #262626;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 12px;
+  color: #fff;
+}
+
+input {
+  color: #000;
+  border: none;
+}
+
+h1 {
+  text-align: center;
+  color: #262626;
+}
+
+h3 {
+  text-align: center;
+  color: #fff;
+}
+
+footer p {
+  text-align: center;
+  color: #b7b7b7;
+}
+
+footer a {
+  text-align: center;
+  text-decoration: none;
+}
+
+section {
+  padding: 12px;
+}
+
+section a {
+  text-decoration: none;
+  color: #5eee00;
+  margin:2px;
+}
+
