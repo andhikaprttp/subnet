@@ -1,4 +1,4 @@
-function calculateSubnet() {
+function hitungSubnet() {
   const ipAddress = document.getElementById("ip-address").value;
   const subnetMask = document.getElementById("subnet-mask").value;
 
