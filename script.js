@@ -3,7 +3,7 @@ function hitungSubnet() {
   const subnetMask = document.getElementById("subnet-mask").value;
 
   // konversi IP address dan subnet mask ke biner
-  const ipBinary = convertToBinary(ipAddress);
+  const ipBiner = convertToBinary(ipAddress);
   const subnetMaskBinary = convertToBinary(subnetMask);
 
   // menghitung network address
