@@ -37,7 +37,7 @@ function calculateSubnet() {
     "<p>Subnet :</p> " +
     numberOfSubnets +
     "<br>" +
-    "<strong>Jumlah host :</strong> " +
+    "<p>Jumlah host :</p> " +
     numberOfHostsPerSubnet +
     "<br>";
 }
