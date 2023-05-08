@@ -14,8 +14,6 @@ let rentang = nilaiMax - nilaiMin;
 
 console.log("Rentang data adalah " + rentang);
 
-
-
 function calculateSubnet() {
       const ipAddress = document.getElementById("ip-address").value;
       const subnetMask = document.getElementById("subnet-mask").value;
