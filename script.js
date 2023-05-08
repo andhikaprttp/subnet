@@ -24,7 +24,7 @@ function calculateSubnet() {
       output.innerHTML = "<strong>Network Address:</strong> " + networkAddress + "<br>" +
                          "<strong>Broadcast Address:</strong> " + broadcastAddress + "<br>" +
                          "<strong>Subnet :</strong> " + numberOfSubnets + "<br>" +
-                         "<strong>Number of Hosts per Subnet:</strong> " + numberOfHostsPerSubnet + "<br>";
+                         "<strong>Jumlah host :</strong> " + numberOfHostsPerSubnet + "<br>";
     }
     
     function convertToBinary(ipAddress) {
