@@ -13,7 +13,7 @@ function hitungSubnet() {
   );
   const broadcastAddressBiner = calculateBroadcastAddress(
     ipBiner,
-    subnetMaskBinary
+    subnetMaskBiner
   );
 
   // konversi network address dan broadcast ke bilagan desimal
