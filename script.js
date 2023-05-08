@@ -1,3 +1,6 @@
+
+// Matematika 
+
 let data = [62, 35, 45, 47, 56, 58];
 
 // mencari nilai terendah
