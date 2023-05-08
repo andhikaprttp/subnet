@@ -9,7 +9,7 @@ let nilaiMax = Math.max(...data);
 
 // menghitung rentang data
 let rentang = nilaiMax - nilaiMin;
-console.log("Rentang data adalah " + rentang);
+console.log("Rentang data : " + rentang);
 
 function calculateSubnet() {
   const ipAddress = document.getElementById("ip-address").value;
