@@ -16,7 +16,7 @@ function calculateSubnet() {
     subnetMaskBinary
   );
 
-  // Convert network address and broadcast address to decimal
+  // konversi network address dan broadcast ke bilagan desimal
   const networkAddress = convertToDecimal(networkAddressBinary);
   const broadcastAddress = convertToDecimal(broadcastAddressBinary);
 
