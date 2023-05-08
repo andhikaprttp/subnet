@@ -21,7 +21,7 @@ function hitungSubnet() {
   const broadcastAddress = convertToDecimal(broadcastAddressBiner);
 
   // menghitung angka host per subnet
-  const subnetMaskBits = countSetBits(subnetMaskBinary);
+  const subnetMaskBits = countSetBits(subnetMaskBiner);
   const numberOfSubnets = Math.pow(2, subnetMaskBits);
   const numberOfHostsPerSubnet = Math.pow(2, 32 - subnetMaskBits) - 2;
 
