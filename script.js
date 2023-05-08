@@ -34,7 +34,7 @@ function calculateSubnet() {
     "<p>Broadcast Address :</p> " +
     broadcastAddress +
     "<br>" +
-    "<strong>Subnet :</strong> " +
+    "<p>Subnet :</p> " +
     numberOfSubnets +
     "<br>" +
     "<strong>Jumlah host :</strong> " +
