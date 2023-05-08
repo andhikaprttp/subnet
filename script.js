@@ -22,7 +22,7 @@ function calculateSubnet() {
       // Display results
       const output = document.getElementById("output");
       output.innerHTML = "<strong>Network Address :</strong> " + networkAddress + "<br>" +
-                         "<strong>Broadcast Address:</strong> " + broadcastAddress + "<br>" +
+                         "<strong>Broadcast Address :</strong> " + broadcastAddress + "<br>" +
                          "<strong>Subnet :</strong> " + numberOfSubnets + "<br>" +
                          "<strong>Jumlah host :</strong> " + numberOfHostsPerSubnet + "<br>";
     }
