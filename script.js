@@ -28,7 +28,7 @@ function calculateSubnet() {
   // menampilkan hasil
   const output = document.getElementById("output");
   output.innerHTML =
-    "<strong>Network Address :</strong> " +
+    "<p>Network Address :</p> " +
     networkAddress +
     "<br>" +
     "<strong>Broadcast Address :</strong> " +
