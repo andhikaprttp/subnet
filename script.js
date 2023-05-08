@@ -31,7 +31,7 @@ function calculateSubnet() {
     "<p>Network Address :</p> " +
     networkAddress +
     "<br>" +
-    "<p>Broadcast Address :</> " +
+    "<p>Broadcast Address :</p> " +
     broadcastAddress +
     "<br>" +
     "<strong>Subnet :</strong> " +
