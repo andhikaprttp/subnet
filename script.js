@@ -7,7 +7,7 @@ function hitungSubnet() {
   const subnetMaskBiner = convertToBinary(subnetMask);
 
   // menghitung network address
-  const networkAddressBinary = calculateNetworkAddress(
+  const networkAddressBiner = calculateNetworkAddress(
     ipBinary,
     subnetMaskBinary
   );
