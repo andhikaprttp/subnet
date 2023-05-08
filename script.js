@@ -19,7 +19,7 @@ function calculateSubnet() {
       const numberOfSubnets = Math.pow(2, subnetMaskBits);
       const numberOfHostsPerSubnet = Math.pow(2, 32 - subnetMaskBits) - 2;
       
-      // Display results
+      // menampilkan hasil
       const output = document.getElementById("output");
       output.innerHTML = "<strong>Network Address :</strong> " + networkAddress + "<br>" +
                          "<strong>Broadcast Address :</strong> " + broadcastAddress + "<br>" +
