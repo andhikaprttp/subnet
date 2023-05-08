@@ -46,3 +46,9 @@ section a {
   margin:2px;
 }
 
+.btn {
+  color:#fff;
+  padding:7px;
+  border-radius:50px;
+  background-color:red;
+}
