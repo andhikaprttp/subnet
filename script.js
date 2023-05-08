@@ -4,7 +4,7 @@ function hitungSubnet() {
 
   // konversi IP address dan subnet mask ke biner
   const ipBiner = convertToBinary(ipAddress);
-  const subnetMaskBinary = convertToBinary(subnetMask);
+  const subnetMaskBiner = convertToBinary(subnetMask);
 
   // menghitung network address
   const networkAddressBinary = calculateNetworkAddress(
