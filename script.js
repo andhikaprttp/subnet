@@ -25,17 +25,7 @@ for (let i = 0; i < nilai.length; i++) {
 console.log(`Jumlah siswa yang mendapatkan nilai lebih dari 60 adalah: ${jumlahSiswa}`);
 
 const nilai = [80, 85, 86, 70];
-const siswa = [7, 3, 4, 8];
-
-let jumlahNilaiDibawah85 = 0;
-
-for (let i = 0; i < nilai.length; i++) {
-  if (nilai[i] < 85) {
-    jumlahNilaiDibawah85 += siswa[i];
-  }
-}
-
-console.log(`Banyak nilai yang dibawah 85 adalah: ${jumlahNilaiDibawah85}`);
+co
 
 
 function calculateSubnet() {
