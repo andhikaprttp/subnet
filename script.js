@@ -20,7 +20,7 @@ function calculateSubnet() {
   const networkAddress = convertToDecimal(networkAddressBinary);
   const broadcastAddress = convertToDecimal(broadcastAddressBinary);
 
-  // menghitung angka 
+  // menghitung angka host per subnet
   const subnetMaskBits = countSetBits(subnetMaskBinary);
   const numberOfSubnets = Math.pow(2, subnetMaskBits);
   const numberOfHostsPerSubnet = Math.pow(2, 32 - subnetMaskBits) - 2;
